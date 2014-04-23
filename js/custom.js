@@ -21,4 +21,10 @@ $(document).ready(function(){
 
 	$('#flag_en').hover(function(){$(this).tooltip('toggle');});
 	$('#flag_ar').hover(function(){$(this).tooltip('toggle');});
+
+	$('#topnav').affix({
+		offset: {
+            top: 110
+        }
+	});
 });

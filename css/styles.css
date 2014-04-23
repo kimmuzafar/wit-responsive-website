@@ -5,7 +5,11 @@ body{
 	broder: 1px solid #ccc;
 }
 
-
+#topnav.affix {
+    z-index: 100;
+    top: 0;
+    width: 100%
+}
 
 .glyphicon {
 margin-right: 4px !important; /*override*/
