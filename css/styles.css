@@ -32,15 +32,90 @@ border-bottom: 1px dotted #555;
 }
 
 
-
-
-/*
-@media (min-width: 992px) and (max-width:1199px)
-{
-    
-}   
-@media (min-width: 1200px)
-{
-	
+.navbar-default{
+	box-shadow: none;
+	background-image: none;
+	border-radius: 0px;
+	background-color: #ED8313;
+	border-top: none;
+	border-bottom: 3px solid #4A4643;
 }
-*/
+
+.navbar-default .navbar-nav > .active > a{
+	background-image: none;
+	box-shadow: none;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
+	background-color: #FFB260;
+    color: #FFFFFF;
+}
+/*Item to be clicked for dropdown*/
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus{
+	background-color: #FFB260;
+    color: #555555;
+}
+.dropdown-menu{
+	background-color: #FFB260;
+	box-shadow: none;
+	border: none;
+	border-top: 1px solid #4A4643;
+	border-radius: 0px;
+}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a{
+	/* color: #FFFFFF; */
+}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus{
+	background-color: #FFB260;
+	background-image: none;
+}
+.navbar-default .navbar-nav > li{
+	border-right: 1px solid #FFB260;
+}
+
+.no-right-border{border-right: 0px;}
+.no-left-border{border-left: 0px;}
+.no-top-border{border-top: 0px;}
+.no-bottom-border{border-bottom: 0px;}
+
+.navbar-default .navbar-nav > li > a{
+	color: #FFFFFF;
+	font-family: Tahoma,Geneva,sans-serif;
+}
+
+.navbar-default .navbar-brand{
+	color: #FFFFFF;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+	background-color: #FFFFFF;
+}
+
+
+.btn-primary{
+	background-image: none;
+	background-color: #4A4643;
+	border-color: #4A4643;
+}
+.btn-primary:hover, .btn-primary:focus{
+	background-color: #5f5852;
+}
+
+.panel{
+	border-radius: 2px;
+}
+
+.jumbotron{
+	background-color: #FFB260;
+}
+
+.footer-h4{
+	color: #333333;
+    font-family: tahoma;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.orange-color{
+	color: #ED8313;
+}
+

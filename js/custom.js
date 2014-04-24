@@ -19,6 +19,10 @@ $(document).ready(function(){
 		onToDo: null
 	});
 
+	$('#social_t').hover(function(){$(this).tooltip('toggle');});
+	$('#social_f').hover(function(){$(this).tooltip('toggle');});
+	$('#social_g').hover(function(){$(this).tooltip('toggle');});
+	$('#social_y').hover(function(){$(this).tooltip('toggle');});
 	$('#flag_en').hover(function(){$(this).tooltip('toggle');});
 	$('#flag_ar').hover(function(){$(this).tooltip('toggle');});
 
