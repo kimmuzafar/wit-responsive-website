@@ -4,6 +4,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>WiT Responsive Website</title>
+  
+  <link href='http://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 
   <!-- Bootstrap -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -29,16 +31,16 @@
         <div class="row">
           <div class="top-social-btn col-xs-8 col-sm-6 col-md-7" style="padding-right:0px;">
             <ul class="list-inline">
-              <li><a href=""><img id="social_t" src="images/social-icons/twitter.png" class="img-responsive" alt="" width="23" data-toggle="tooltip" data-placement="bottom" title="Find Us On Twitter"></a></li>
-              <li><a href=""><img id="social_f" src="images/social-icons/facebook.png" class="img-responsive" alt="" width="23" data-toggle="tooltip" data-placement="bottom" title="View Our Page On Facebook"></a></li>
-              <li><a href=""><img id="social_g" src="images/social-icons/google.png" class="img-responsive" alt="" width="23" data-toggle="tooltip" data-placement="bottom" title="Find Us On Google Plus"></a></li>
-              <li><a href=""><img id="social_y" src="images/social-icons/youtube.png" class="img-responsive" alt="" width="23" data-toggle="tooltip" data-placement="bottom" title="View Our Channel On Youtube"></a></li>
+              <li><a href=""><img id="social_t" src="images/social-icons/social1.jpg" class="img-responsive" alt="" width="25" data-toggle="tooltip" data-placement="bottom" title="Find Us On Twitter"></a></li>
+              <li><a href=""><img id="social_f" src="images/social-icons/social2.jpg" class="img-responsive" alt="" width="25" data-toggle="tooltip" data-placement="bottom" title="View Our Page On Facebook"></a></li>
+              <li><a href=""><img id="social_g" src="images/social-icons/social3.jpg" class="img-responsive" alt="" width="25" data-toggle="tooltip" data-placement="bottom" title="Find Us On Google Plus"></a></li>
+              <li><a href=""><img id="social_y" src="images/social-icons/social4.jpg" class="img-responsive" alt="" width="25" data-toggle="tooltip" data-placement="bottom" title="View Our Channel On Youtube"></a></li>
             </ul>
           </div>
 
           <div class="lang-switch col-xs-4 col-sm-6 col-md-5 text-right" style="padding-left:0px; line-height:28px;">
-            <a href=""><img id="flag_en" src="images/icons/flag_en.jpg" alt="English" data-toggle="tooltip" data-placement="bottom" title="Switch to English Language" width="38"></a> 
-            <a href=""><img id="flag_ar" src="images/icons/flag_ar.jpg" alt="Arabic" data-toggle="tooltip" data-placement="bottom" title="Switch to Arabic Language" width="38"></a>
+            <a href="" style="display:none"><img id="flag_en" src="images/icons/flag_en.jpg" alt="English" data-toggle="tooltip" data-placement="bottom" title="Switch to English Language" width="33"> English</a> 
+            <a href="" style="display:block">عربي <img id="flag_ar" src="images/icons/flag_ar.jpg" alt="Arabic" data-toggle="tooltip" data-placement="bottom" title="Switch to Arabic Language" width="35"></a>
           </div>
         </div>
 
@@ -47,7 +49,7 @@
             <div class="input-group">
               <input type="text" class="form-control" placeholder="Search...">
               <span class="input-group-btn">
-                <button class="btn btn-default" type="button" style="padding:9px;">
+                <button class="btn btn-default noborder" type="button" style="padding:9px;">
                   <span class="glyphicon glyphicon-search"></span>
                 </button>
               </span>
@@ -78,10 +80,19 @@
         <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-3" style="height: auto;">
           <ul class="nav navbar-nav">
             <li class="active"><a href="">Home</a></li>
-            <li><a href="">About Us</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">G.M Message</a></li>
+                <li><a href="#">Our Vision</a></li>
+                <li><a href="#">Our Mission</a></li>
+                <li><a href="#">Core Values</a></li>
+                <li><a href="#">Parteners</a></li>
+              </ul>
+            </li>
             <li><a href="">Programs</a></li>
             <li class="hidden-sm"><a href="">Admission & Recruitment</a></li>
-            <li><a href="">Quality & Accredition</a></li>
+            <li class="hidden-sm"><a href="">Quality & Accredition</a></li>
             <li><a href="">Contact Us</a></li>
           </ul>
 
@@ -173,58 +184,30 @@
         </div>
       </div>
       
-      <h3 class="orange-color">About Us</h3>
-      <p><strong>Al-Watania Poultry Institute of Technology (WIT)</strong> is a non-profitable institute. It has been established as a strategic partnership between the largest integrated poultry company in the Middle East, al-Watania Poultry (WP) and the government of Saudi Arabia, represented by TVTC (Technical & Vocational Training Corporation). This new entity, WIT, aims to provide world-class education and practical training of Saudi workforce in the field of poultry industries and its supporting services in order to assist them in securing employment in poultry industry sector. As well as, providing support to sustain the industry.. <a href="">Read More</a></p>
-      <hr />
+      <h4 class="heading-middle page-header"><span>About Us</span></h4>
+      <p>Al Watania Poultry Institute of Technology (WIT) is a non-profitable institute. It has been established as a strategic partnership between the largest integrated poultry company in the Middle East, al-Watania Poultry (WP) and the government of Saudi Arabia, represented by TVTC (Technical & Vocational Training Corporation). This new entity, WIT, aims to provide world-class education and practical training of Saudi workforce in the field of poultry industries and its supporting services in order to assist them in securing employment in poultry industry sector. As well as, providing support to sustain the industry.. <a href="" class="orange-color">Read More</a></p>
       
-      <div class="row">
-        <div class="col-xs-12 col-sm-6 col-md-4">
-          <div class="thumbnail">
-            <img data-src="holder.js/300x100" alt="..." class="img-responsive">
-            <div class="caption">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. edition esel Esse, consequatur, ab ducimus enim ratione minima deserunt fugiat vitae voluptates magnam sed sit reprehenderit eius incidunt omnis necessitatibus cumque aut consectetur! lorem ipsum omnis testing test again.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-xs-12 col-sm-6 col-md-4">
-          <div class="thumbnail">
-            <img data-src="holder.js/300x100" alt="..." class="img-responsive">
-            <div class="caption">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. edition esel Esse, consequatur, ab ducimus enim ratione minima deserunt fugiat vitae voluptates magnam sed sit reprehenderit eius incidunt omnis necessitatibus cumque aut consectetur! lorem ipsum omnis testing test again.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-xs-12 col-sm-6 col-md-4">
-          <div class="thumbnail">
-            <img data-src="holder.js/300x100" alt="..." class="img-responsive">
-            <div class="caption">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. edition esel Esse, consequatur, ab ducimus enim ratione minima deserunt fugiat vitae voluptates magnam sed sit reprehenderit eius incidunt omnis necessitatibus cumque aut consectetur! lorem ipsum omnis testing test again.</p>
-            </div>
-          </div>
-        </div>
-
-      </div>
+      <h4 class="heading-middle page-header"><span>Academic Programs</span></h4>
+      <div class="well col-md-6 col-xs-12 pull-left blocklink" onclick="window.location=''">SSS 2-Years Full Diploma</div>
+      <div class="well col-md-6 col-xs-12 pull-right blocklink" onclick="window.location=''">SSS 1-Year Diploma</div>
+      <div class="well col-md-6 col-xs-12 pull-left blocklink" onclick="window.location=''">1-Year Diploma</div>
+      <div class="well col-md-6 col-xs-12 pull-right blocklink" onclick="window.location=''">6-Months Certificate</div>
+      
+      <div class="clearfix"></div>
 
     </section>
 
     <aside id="sidenav" class="col-md-4">
+      
       <div class="current-in-process">
         <div class="panel panel-default">
           <div class="panel-body">
-            <p><button type="button" class="btn btn-primary btn-lg btn-block">Vacancies</button></p>
-            <p><button type="button" class="btn btn-primary btn-lg btn-block">FAQ's</button></p>
+            <p></p>
+            <p><button type="button" class="noradius btn btn-primary btn-lg btn-block">Vacancies</button></p>
+            <p><button type="button" class="noradius btn btn-primary btn-lg btn-block">FAQ's</button></p>
           </div>
         </div>
       </div>
-
-      <div class="promo-video">
-        <a href="#" class="thumbnail">
-          <img src="images/video.jpg" alt="WIT At Youtube" width="100%">
-        </a>
-      </div>
-
       
       <!-- News Ticker -->
       <div class="panel panel-default">
@@ -235,43 +218,62 @@
           <div class="row">
             <div class="col-xs-12">
               <ul class="news-ticker">
-                <li class="news-item"><h4>News One Title Goes here</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil id provident dolores non doloribus facilis <a href="#" class="orange-color">Read more...</a></p></li>
-                <li class="news-item"><h4>WIT Website Under Development</h4><p>Nihil id provident dolores non doloribus facilis iure sed molestias a explicabo. Sit, molestiae doloribus culpa <a href="#" class="orange-color">Read more...</a></p></li>
-                <li class="news-item"><h4>Mobile Compatible webiste</h4><p>Non doloribus facilis iure sed molestias a explicabo. Sit, molestiae doloribus culpa mollitia ea expedita ut cumque <a href="#" class="orange-color">Read more...</a></p></li>
+                <li class="news-item"><h5><strong>News One Title Goes here</strong></h5><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil id provident dolores non doloribus facilis <a href="#" class="orange-color">Read more...</a></p></li>
+                <li class="news-item"><h5><strong>WIT Website Under Development</strong></h5><p>Nihil id provident dolores non doloribus facilis iure sed molestias a explicabo. Sit, molestiae doloribus culpa <a href="#" class="orange-color">Read more...</a></p></li>
+                <li class="news-item"><h5><strong>Mobile Compatible webiste</strong></h5><p>Non doloribus facilis iure sed molestias a explicabo. Sit, molestiae doloribus culpa mollitia ea expedita ut cumque <a href="#" class="orange-color">Read more...</a></p></li>
               </ul>
             </div>
           </div>
         </div>
-        <div class="panel-footer"></div>
+        <!-- <div class="panel-footer"></div> -->
       </div>
       <!-- End News Ticker -->
+      
+      <!-- promo-video -->
+      <div class="promo-video">
+        <a href="#" class="noradius thumbnail">
+          <img src="images/video.jpg" alt="WIT At Youtube" width="100%">
+        </a>
+      </div>
+      <!-- end promo-video -->
 
     </aside>
 
     
   </div>
+
   
-  <!--
   <footer>
-    <div class="navbar navbar-default">
+    <div class="navbar navbar-default" role="navigation">
       <div class="container">
-        <div class="navbar-collapse collapse">
+
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bottom-bar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand visible-xs" href="#">BOTTOM MENU</a>
+        </div>
+
+        <div id="bottom-bar-collapse" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href="">Register Now</a></li>
             <li><a href="">Education & Training</a></li>
             <li><a href="">Admin</a></li>
             <li><a href="">Customers & Suppliers</a></li>
             <li><a href="">R & D</a></li>
-            <li><a href="">Partners & Founders</a></li>
-            <li><a href="">More Services</a></li>
+            <li class="hidden-sm"><a href="">Partners & Founders</a></li>
+            <li class="hidden-sm"><a href="">More Services</a></li>
           </ul>
         </div>
       </div>
     </div>
   </footer>
-  -->
+  
 
-  <div class="jumbotron">
+  <!-- <div class="jumbotron">
     <div class="container">
       <div class="col-xs-12 col-sm-4 col-md-2">
         <h4 class="footer-h4">STUDY WITH US</h4>
@@ -296,7 +298,7 @@
           <li>Why Choose WIT</li>
         </ul>
       </div>
-
+  
       <div class="col-xs-12 col-sm-4 col-md-2">
         <h4 class="footer-h4">ACADEMIC</h4>
         <ul class="list-unstyled">
@@ -308,7 +310,7 @@
           <li>Why Choose WIT</li>
         </ul>
       </div>
-
+  
       <div class="col-xs-12 col-sm-4 col-md-2">
         <h4 class="footer-h4">ABOUT US</h4>
         <ul class="list-unstyled">
@@ -320,7 +322,7 @@
           <li>Why Choose WIT</li>
         </ul>
       </div>
-
+  
       <div class="col-xs-12 col-sm-8 col-md-4">
         <h4 class="footer-h4">NEWSLETTER</h4>
         Make sure you dont miss interesting happenings by joining our newsletter program.
@@ -332,7 +334,7 @@
           </div>
           <button type="submit" class="btn btn-default">Subscribe</button>
         </form>
-        <!-- <div class="media">
+        <div class="media">
           <a class="pull-left" href="#">
             <img data-src="holder.js/64x64" alt="..." class="media-object" style="border:1px dotted #ccc;">
           </a>
@@ -349,15 +351,15 @@
             <h5 class="media-heading"><strong>Media heading</strong></h5>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, tempora nulla sunt.
           </div>
-        </div> -->
+        </div>
       </div>
-
+  
     </div>
-  </div>
+  </div> -->
 
   <div class="footer2">
     <div class="container">
-      <p class="text-center">Copyright © 2013 Al-Watania Poultry Institute Of Technology (WIT)</p>
+      <p class="text-center">Copyright © 2013 Al Watania Poultry Institute Of Technology (WIT)</p>
     </div>
     <p></p>
   </div>

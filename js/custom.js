@@ -4,8 +4,8 @@ $(document).ready(function(){
 
 	/*news ticker*/
 	$(".news-ticker").bootstrapNews({
-		newsPerPage: 3,
-		navigation: true,
+		newsPerPage: 2,
+		navigation: false,
 		autoplay: true,
 		direction:'up', // up or down
 		animationSpeed: 'normal',

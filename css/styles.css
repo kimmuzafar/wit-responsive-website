@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+
 body{
 	padding-top:10px;
 }
@@ -79,7 +81,8 @@ border-bottom: 1px dotted #555;
 
 .navbar-default .navbar-nav > li > a{
 	color: #FFFFFF;
-	font-family: Tahoma,Geneva,sans-serif;
+	/* font-family: Tahoma,Geneva,sans-serif; */
+	font-family: 'Noto Sans', 'sans-serif';
 }
 
 .navbar-default .navbar-brand{
@@ -101,7 +104,7 @@ border-bottom: 1px dotted #555;
 }
 
 .panel{
-	border-radius: 2px;
+	border-radius: 0px;
 }
 
 .jumbotron{
@@ -110,7 +113,7 @@ border-bottom: 1px dotted #555;
 
 .footer-h4{
 	color: #333333;
-    font-family: tahoma;
+    /* font-family: tahoma; */
     font-size: 15px;
     font-weight: bold;
 }
@@ -119,3 +122,86 @@ border-bottom: 1px dotted #555;
 	color: #ED8313;
 }
 
+
+
+
+
+.heading-middle{
+    line-height: 25px;
+    border-bottom: 1px solid #FFB260;
+    padding: 0px;
+    padding-bottom: 2px;
+}
+.heading-middle span{
+	background-color: #FFB260;
+    color: #FFFFFF;
+    line-height: 25px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-right: 10px;
+}
+
+
+
+
+.well{
+	background-image: none;
+	padding: 18px;
+	box-shadow: none;
+
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+}
+
+.noradius{
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+}
+
+.blocklink:hover{
+	cursor: pointer;
+}
+
+.panel-default > .panel-heading{
+	background-image: none;
+	background-color: #FFB260;
+	color: #FFFFFF;
+	
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+}
+
+
+.lang-switch{
+	font-family: 'Droid Arabic Kufi', serif;
+	font-size: 16px;
+}
+.lang-switch a{
+	color: #5F5852;
+}
+.lang-switch a:hover{
+	color: #FFB260;
+	text-decoration: none;
+}
+
+
+.input-group .form-control{
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+}
+
+.noborder{
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+}
+
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
+	background-color: #FFB260;
+}
